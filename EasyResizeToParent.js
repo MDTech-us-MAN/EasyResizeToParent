@@ -1,5 +1,5 @@
-/*
- * Copyright (c) 2017 Maxwell Dreytser
+/**
+ * @license Copyright (c) 2017 Maxwell Dreytser
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -72,4 +72,7 @@
 	// Additionally, resize every 0.5 seconds in case a new element may be added.
 	setInterval(doResize, 500);
 	doResize();
+
+	// Make the Resizer public to allow manual triggering of the resize.
+	window.DoEasyResizeToParent = doResize;
 })();
