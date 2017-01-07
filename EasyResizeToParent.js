@@ -48,6 +48,9 @@
 		for (var i = 0, len = elms.length; i < len; i++) {
 			var elm = elms[i];
 			var parentElm = elm.parentNode;
+			while (parentElm.tagName == 'a') {
+				parentElm = parentElm.parentNode;
+			}
 
 			// Calculate the aspect ratio for the element.
 			var elmAspectRatio = elm.clientWidth / elm.clientHeight;
