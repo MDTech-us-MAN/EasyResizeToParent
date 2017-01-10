@@ -48,7 +48,7 @@
 		for (var i = 0, len = elms.length; i < len; i++) {
 			var elm = elms[i];
 			var parentElm = elm.parentNode;
-			while (parentElm.tagName == 'a') {
+			while (parentElm.tagName.toLowerCase() == 'a') {
 				parentElm = parentElm.parentNode;
 			}
 
