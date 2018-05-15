@@ -8,7 +8,7 @@ To use this library, simply add the `resizeToParent` attribute to any element.
 <img src="..." resizeToParent />
 ```
 
-**Demo:** http://codepen.io/Maxwell175/pen/wgBNxJc
+**Demo:** https://jsfiddle.net/q3hufLha/
 
 # Dependencies
 **None.**
